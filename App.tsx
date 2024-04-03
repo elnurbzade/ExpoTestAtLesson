@@ -9,7 +9,7 @@ export default function App() {
     return (
       <View style={styles.view}>
         <Text>{value}</Text>
-        <Button title="Random" onPress={() => setValue(Math.floor(Math.random()*1000))}>
+        <Button title="Random" onPress={() => setValue(Math.floor(Math.random()*100))}>
 
         </Button>
       </View>
